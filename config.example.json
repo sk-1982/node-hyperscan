@@ -1,0 +1,5 @@
+{
+  "hyperscan_include": "[hyperscan_dir]/src",
+  "hyperscan_lib": "[hyperscan_dir]/build/lib/hs.lib",
+  "hyperscan_runtime_lib": "[hyperscan_dir]/build/lib/hs_runtime.lib"
+}

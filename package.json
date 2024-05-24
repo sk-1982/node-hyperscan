@@ -1,0 +1,13 @@
+{
+  "name": "node-hyperscan",
+  "version": "0.0.1",
+  "devDependencies": {
+    "node-addon-api": "^7.0.0",
+    "node-gyp": "^10.0.1"
+  },
+  "gypfile": true,
+  "main": "./build/release/hyperscan.node",
+  "scripts": {
+    "build": "node-gyp build"
+  }
+}
